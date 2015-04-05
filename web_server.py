@@ -1,3 +1,7 @@
+"""Here's where we create the movie tiles, then create the page iteslf
+  as an html page and serve it.
+"""
+
 import webbrowser
 import os
 import re
@@ -19,7 +23,7 @@ def create_movie_tiles_content(movies):
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
             plot_outline = movie.plot_outline,
-            genres = movie.genres,
+            stars = movie.stars,
             trailer_youtube_id=trailer_youtube_id
         )
     return content

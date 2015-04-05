@@ -1,4 +1,7 @@
-"""main"""
+"""This is the main module of the application. We create a dict w/titles and
+	trailer links, create all the movie objects, then pass them off to the web 
+	server. 
+"""
 
 import web_server 
 from models import Movie
@@ -6,9 +9,9 @@ from models import Movie
 def movie_trailer():
 	#titles = ["Goodfellas", "Godfather", "Big Lebowski"]
 	titles = {"Goodfellas":'https://www.youtube.com/watch?v=qo5jJpHtI1Y', 
-			"Godfather": 'https://www.youtube.com/watch?v=sY1S34973zA', 
+			"The Godfather": 'https://www.youtube.com/watch?v=sY1S34973zA', 
 			"Big Lebowski": 'https://www.youtube.com/watch?v=cd-go0oBF4Y',
-			"Fargo": 'https://www.youtube.com/watch?v=EB4PmbfG4bw',
+			"Casablanca": 'https://www.youtube.com/watch?v=EJvlGh_FgcI',
 			"State of Grace": 'https://www.youtube.com/watch?v=PN_L96iEQfQ',
 			"The Girl with the Dragon Tattoo": 'https://www.youtube.com/watch?v=DqQe3OrsMKI'
 			}

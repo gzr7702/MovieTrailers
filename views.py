@@ -105,7 +105,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">In a World Movie Trailers</a>
+            <a class="navbar-brand" href="#">In a World... My Favorite Movie Trailers</a>
           </div>
         </div>
       </div>
@@ -121,8 +121,8 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="93" height="140">
-    <h2>{movie_title}</h2>
-    <h3>{genres}</h3>
+    <h3>{movie_title}</h3>
+    <p>[{stars}]</p>
     <p>{plot_outline}</p>
 </div>
 '''
