@@ -21,7 +21,9 @@ http://www.crummy.com/software/BeautifulSoup/
 
 IMDb can be installed by running: pip install IMDbPY
 
-Or, going to the following site and following the installation instructions.
+Or, going to the following site and following the installation instructions:
+
+http://imdbpy.sourceforge.net/downloads.html
 
 USE:
 
