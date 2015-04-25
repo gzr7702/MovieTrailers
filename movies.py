@@ -1,6 +1,6 @@
-"""This is the main module of the application. It contains the movie class. We create a dict w/titles and
-	trailer links, create all the movie objects, then pass them off to the web 
-	server. 
+"""This is the main module of the application. It contains the movie class. 
+	Movie objects are creating by passing in a dict w/titles and trailer links.
+	We pass a list of movie objects off to the web server. 
 """
 
 import fresh_tomatoes
@@ -25,6 +25,8 @@ class Movie:
 		self.plot_outline = movie['plot outline']
 
 def movie_trailer():
+	""" Craetes the list of movie objects, then calls the main module
+	"""
 	#titles = ["Goodfellas", "Godfather", "Big Lebowski"]
 	titles = {"Goodfellas":'https://www.youtube.com/watch?v=qo5jJpHtI1Y', 
 			"The Godfather": 'https://www.youtube.com/watch?v=sY1S34973zA', 

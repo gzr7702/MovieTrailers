@@ -1,3 +1,7 @@
+""" This is the main module that create the html page and hosts it via a lite
+    web server.
+"""
+
 import webbrowser
 import os
 import re
