@@ -14,7 +14,7 @@ setup(
     author_email = "rgraziano.gzr7702@gmail.com",
     description = ("Creates a page to display movie information."),
     #install_requires = ['IMDbPY', 'beautifulsoup'],
-    dependancy_links = [
+    dependency_links = [
         "http://www.crummy.com/software/BeautifulSoup/bs4/download/4.3/beautifulsoup4-4.3.2.tar.gz",
         "https://bitbucket.org/alberanid/imdbpy/get/5.0.tar.gz"
     ],
