@@ -13,10 +13,10 @@ setup(
     version = "0.0.4:",
     author_email = "rgraziano.gzr7702@gmail.com",
     description = ("Creates a page to display movie information."),
-    #install_requires = ['IMDbPY', 'beautifulsoup'],
+    install_requires = ['IMDbPY', 'beautifulsoup'],
     dependency_links = [
-        "http://www.crummy.com/software/BeautifulSoup/bs4/download/4.3/beautifulsoup4-4.3.2.tar.gz",
         "https://bitbucket.org/alberanid/imdbpy/get/5.0.tar.gz"
+        "http://www.crummy.com/software/BeautifulSoup/bs4/download/4.3/beautifulsoup4-4.3.2.tar.gz",
     ],
     long_description=read('README.md'),
 )
