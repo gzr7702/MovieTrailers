@@ -1,46 +1,44 @@
 {
-	"movie_list": [ 
-		{
-			"title": "Goodfellas", 
-			"trailer":"https://www.youtube.com/watch?v=qo5jJpHtI1Y",
-			"stars": "save",
-			"poster_url": "asdfasdf",
-			"blurb": "aasdfasdf"
-		},
-		{
-			"title": "The Godfather", 
-			"trailer":"https://www.youtube.com/watch?v=sY1S34973zA", 
-			"stars": "save",
-			"poster_url": "asdfasdf",
-			"blurb": "aasdfasdf"
-		},
-		{
-			"title": "Big Lebowski",
-			"trailer":"https://www.youtube.com/watch?v=cd-go0oBF4Y",
-			"stars": "save",
-			"poster_url": "asdfasdf",
-			"blurb": "aasdfasdf"
-		},
-		{
-			"title": "Casablanca",
-			"trailer":"https://www.youtube.com/watch?v=EJvlGh_FgcI",
-			"stars": "save",
-			"poster_url": "asdfasdf",
-			"blurb": "aasdfasdf"
-		},
-		{
-			"title": "State of Grace",
-			"trailer":"https://www.youtube.com/watch?v=PN_L96iEQfQ",
-			"stars": "save",
-			"poster_url": "asdfasdf",
-			"blurb": "aasdfasdf"
-		},
-		{
-			"title":"The Girl with the Dragon Tattoo",
-			"trailer":"https://www.youtube.com/watch?v=DqQe3OrsMKI",
-			"stars": "save",
-			"poster_url": "asdfasdf",
-			"blurb": "aasdfasdf"
-		}
-	]
+    "Goodfellas":
+    {
+      "trailer": "https://www.youtube.com/watch?v=qo5jJpHtI1Y", 
+      "blurb": "Henry Hill and his friends work their way up through the mob hierarchy.",
+      "poster_url": "images/goodfellas.jpg", 
+      "stars": ["Robert De Niro", "Ray Liotta", "Joe Pesci"]
+    }, 
+    "The Godfather":
+    {
+      "trailer": "https://www.youtube.com/watch?v=sY1S34973zA", 
+      "blurb": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.", 
+      "poster_url": "images/godfather.jpg", 
+      "stars": ["Marlon Brando", "Al Pacino", "James Caan"]
+    }, 
+    "Big Lebowski":
+    {
+      "trailer": "https://www.youtube.com/watch?v=cd-go0oBF4Y", 
+      "blurb": "\"The Dude\" Lebowski, mistaken for a millionaire Lebowski, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.", 
+      "poster_url": "images/lebowski.jpg", 
+      "stars": ["Jeff Bridges", "John Goodman", "Julianne Moore"]
+    }, 
+    "Casablanca":
+    {
+      "trailer": "https://www.youtube.com/watch?v=EJvlGh_FgcI", 
+      "blurb": "Set in unoccupied Africa during the early days of World War II: An American expatriate meets a former lover, with unforeseen complications.", 
+      "poster_url": "images/casablanca.jpg", 
+      "stars": ["Humphrey Bogart", "Ingrid Bergman", "Paul Henreid"]
+    }, 
+    "State of Grace":
+    {
+      "trailer": "https://www.youtube.com/watch?v=PN_L96iEQfQ", 
+      "blurb": "Terry Noonan returns home to New York's Hells Kitchen after a ten year absence. He soon hooks up with his old friends for a delightful romp.", 
+      "poster_url": "images/grace.jpg", 
+      "stars": ["Sean Penn", "Ed Harris", "Gary Oldman"]
+    }, 
+    "The Girl with the Dragon Tattoo":
+    {
+      "trailer": "https://www.youtube.com/watch?v=DqQe3OrsMKI", 
+      "blurb": "Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for forty years by Lisbeth Salander, a young computer hacker.", 
+      "poster_url": "images/dragon.jpg", 
+      "stars": ["Daniel Craig", "Rooney Mara", "Christopher Plummer"]
+    }
 }

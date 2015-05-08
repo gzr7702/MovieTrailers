@@ -11,7 +11,7 @@ class Movie:
 		the rest of the info pulled from the local database."""
 	def __init__(self, title):
 		self.title = title
-		with open('data2.json') as f:
+		with open('data.json') as f:
 			self.raw_movie_info = json.load(f)
 		self.get_movie_info()
 
