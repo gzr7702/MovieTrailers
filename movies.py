@@ -9,25 +9,23 @@ import sys
 import os
 
 class Movie:
-	""" The title is passed in to the constructor,
-		the rest of the info pulled from the local database."""
 	def __init__(self, title, movie_info):
+		""" The title is passed in to the constructor,
+			the rest of the info is passed in as json."""
 		self.title = title
 		self.get_movie_info(movie_info)
 
 	def get_movie_info(self, minfo):
-		""" We load the data from data.json file in the constructor. If we 
-			were using a real database, we would have queries here.
-		"""
-		#import pdb; pdb.set_trace()
+		""" We load the data from a json object that's passed to the constructor. 
+			If we were using a real database, we would have queries here. """
+
 		self.trailer_youtube_url = minfo['trailer']
 		self.stars = '/'.join(minfo['stars'])
 		self.poster_image_url =  minfo['poster_url']
 		self.plot_outline =  minfo['blurb']
 
 def movie_trailer(args):
-	""" Creates the list of movie objects, then calls the main module
-	"""
+	""" Creates the list of movie objects, then calls the main module """
 
 	json_file = args
 	if not os.path.exists(json_file):
@@ -46,4 +44,8 @@ def movie_trailer(args):
 
 
 if __name__ == '__main__':
+	if len(sys.argv) != 2:
+		print("You didn't supply the proper amount of arguments")
+		print("Usage: python movies.py <path to file>")
+		sys.exit(1)
 	movie_trailer(sys.argv[1])
