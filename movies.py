@@ -1,7 +1,6 @@
-"""This is the main module of the application. It contains the movie class. 
+""" This is the main module of the application. It contains the movie class. 
 	Movie objects are creating by passing in a dict w/titles and trailer links.
-	We pass a list of movie objects off to the web server. 
-"""
+	We pass a list of movie objects off to the web server. """
 
 import fresh_tomatoes
 import json
@@ -51,8 +50,11 @@ def movie_trailer(args):
 
 
 if __name__ == '__main__':
+	# Check that we have the proper number of arguments
+	# otherwise, exit.
 	if len(sys.argv) != 2:
 		print("You didn't supply the proper amount of arguments")
 		print("Usage: python movies.py <path to file>")
 		sys.exit(1)
+	# Call our main function 
 	movie_trailer(sys.argv[1])
