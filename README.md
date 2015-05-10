@@ -15,10 +15,9 @@ The application uses Python 2.7
 
 USE:
 
-Once you have these libraries installed, run the command:
+After you've updated the json file with your favorite movies, run the command:
 
-python movies.py
+python movies.py data.json
 
 It will create a file called movie_trailers.html and pass that file to a lightweight webserver to serve the page
 on the local machine.
-
